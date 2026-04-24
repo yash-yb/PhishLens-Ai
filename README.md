@@ -38,7 +38,7 @@ This service handles the heavy lifting: Image preprocessing, OCR extraction, and
    ```
 3. Install dependencies:
    ```bash
-   pip install fastapi uvicorn easyocr scikit-learn pandas requests python-multipart opencv-python-headless
+   pip install -r requirements.txt
    ```
    *Note: The first time you run the service, it will download ~100MB of OCR model weights.*
 
