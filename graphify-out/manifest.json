@@ -1,0 +1,106 @@
+{
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\backend-gateway\\index.js": {
+    "mtime": 1776412041.357107,
+    "hash": "c77ee626bae90afb015ada88ec74fbd2"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\ml-service\\classifier.py": {
+    "mtime": 1777015190.8520553,
+    "hash": "70b15c88d26be1768ac6aeb5bbc520b3"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\ml-service\\config.py": {
+    "mtime": 1777015167.0184736,
+    "hash": "006e4061ce18f43bb55d3226a23ef9b3"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\ml-service\\main.py": {
+    "mtime": 1777015250.4047067,
+    "hash": "93a1bb91fdc097a05a2677c822fb3a4f"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\ml-service\\ocr_engine.py": {
+    "mtime": 1777015234.9769237,
+    "hash": "4cbe0c27a925c0bdc87a4a389cc2e7f1"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\ml-service\\test_service.py": {
+    "mtime": 1777016249.4980707,
+    "hash": "fee45dd7726e26160df6582941d2828e"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\ml-service\\train_model.py": {
+    "mtime": 1777015200.031362,
+    "hash": "192cd815b43c7e7247e654da0fe915e2"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\eslint.config.js": {
+    "mtime": 1776412041.3679378,
+    "hash": "c15fd0f45c689a8b77c8ff6fe6fada9b"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\postcss.config.js": {
+    "mtime": 1776412041.3679378,
+    "hash": "5b84f4567208c7c747079c0477373231"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\tailwind.config.js": {
+    "mtime": 1776412041.3893845,
+    "hash": "ab89d12a3a2d1b0f3041685c49e72bbe"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\vite.config.js": {
+    "mtime": 1776412041.3893845,
+    "hash": "199e1221ae03d6974fdc8b5e23787b98"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\src\\App.jsx": {
+    "mtime": 1776412041.3823836,
+    "hash": "0a3d9fbb3acffa7a6a5a047f11cedb26"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\src\\main.jsx": {
+    "mtime": 1776412041.3893845,
+    "hash": "51fd21c378330142b61bf8d1ef3795ef"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\PhishLens AI Development Roadmap.md": {
+    "mtime": 1776412041.3420656,
+    "hash": "ab94f6072505239a9efdc7187ad1aeb7"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\PhishLens AI ReadMe.md": {
+    "mtime": 1776412041.3440902,
+    "hash": "5cd7bc193ae89060850916e3ab27a0e7"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\PROJECT_PLAN.md": {
+    "mtime": 1776412041.3420656,
+    "hash": "811e4a6c95afd4dd7433917740fed688"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\README.md": {
+    "mtime": 1777480120.692355,
+    "hash": "5e13bff879d06ecfa2991e2661fbf215"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\README_TECHNICAL.md": {
+    "mtime": 1776412041.3521163,
+    "hash": "e7a01afc2e9bd25bc99f8e73313c7b1d"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\requirement.txt": {
+    "mtime": 1776540518.4254162,
+    "hash": "0fc28148c0bfb212b67235afd644e1d3"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\index.html": {
+    "mtime": 1776412041.3679378,
+    "hash": "bcae56fbcbab0f0dc2f6822a884ec08d"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\README.md": {
+    "mtime": 1776412041.365906,
+    "hash": "abfa161e3e5434e3e85394bf03d387a4"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\public\\favicon.svg": {
+    "mtime": 1776412041.3764653,
+    "hash": "7e840862161341271697daa99a40d76b"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\public\\icons.svg": {
+    "mtime": 1776412041.3764653,
+    "hash": "21c7473c592c67dc87223d49892c8f0a"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\src\\assets\\hero.png": {
+    "mtime": 1776412041.385231,
+    "hash": "5cf2b0762834cdddc0dd3ec1397b5011"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\src\\assets\\react.svg": {
+    "mtime": 1776412041.38659,
+    "hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "E:\\STR\\SEM 2\\PBL\\PhishLens-Ai\\web-frontend\\src\\assets\\vite.svg": {
+    "mtime": 1776412041.3881564,
+    "hash": "6d5180a782d64c8cf51ba01c2a2184d8"
+  }
+}

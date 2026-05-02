@@ -101,8 +101,8 @@ npm start
 
 ### Terminal 3: Web Frontend
 ```bash
-cd web-frontend
-npm run dev
+   cd web-frontend
+   npm run dev
 ```
 
 The application will be accessible at: **[http://localhost:5173](http://localhost:5173)**

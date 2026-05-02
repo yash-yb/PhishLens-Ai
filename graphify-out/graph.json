@@ -1,0 +1,595 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "backend-gateway\\index.js",
+      "source_location": "L1",
+      "id": "backend_gateway_index_js",
+      "community": 6,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "classifier.py",
+      "file_type": "code",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L1",
+      "id": "ml_service_classifier_py",
+      "community": 0,
+      "norm_label": "classifier.py"
+    },
+    {
+      "label": "PhishLensClassifier",
+      "file_type": "code",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L7",
+      "id": "ml_service_classifier_phishlensclassifier",
+      "community": 0,
+      "norm_label": "phishlensclassifier"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L8",
+      "id": "ml_service_classifier_phishlensclassifier_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._load_model()",
+      "file_type": "code",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L13",
+      "id": "ml_service_classifier_phishlensclassifier_load_model",
+      "community": 0,
+      "norm_label": "._load_model()"
+    },
+    {
+      "label": ".predict()",
+      "file_type": "code",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L25",
+      "id": "ml_service_classifier_phishlensclassifier_predict",
+      "community": 0,
+      "norm_label": ".predict()"
+    },
+    {
+      "label": ".is_ready()",
+      "file_type": "code",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L45",
+      "id": "ml_service_classifier_phishlensclassifier_is_ready",
+      "community": 0,
+      "norm_label": ".is_ready()"
+    },
+    {
+      "label": "Load the model and vectorizer from disk if they exist.",
+      "file_type": "rationale",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L14",
+      "id": "ml_service_classifier_rationale_14",
+      "community": 0,
+      "norm_label": "load the model and vectorizer from disk if they exist."
+    },
+    {
+      "label": "Predict the risk score based on the text content.         Returns a probability",
+      "file_type": "rationale",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L26",
+      "id": "ml_service_classifier_rationale_26",
+      "community": 0,
+      "norm_label": "predict the risk score based on the text content.         returns a probability"
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "ml-service\\config.py",
+      "source_location": "L1",
+      "id": "ml_service_config_py",
+      "community": 7,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L1",
+      "id": "ml_service_main_py",
+      "community": 2,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "DetectionResult",
+      "file_type": "code",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L14",
+      "id": "ml_service_main_detectionresult",
+      "community": 2,
+      "norm_label": "detectionresult"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basemodel",
+      "community": 2,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "read_root()",
+      "file_type": "code",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L23",
+      "id": "ml_service_main_read_root",
+      "community": 2,
+      "norm_label": "read_root()"
+    },
+    {
+      "label": "analyze_image()",
+      "file_type": "code",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L30",
+      "id": "ml_service_main_analyze_image",
+      "community": 2,
+      "norm_label": "analyze_image()"
+    },
+    {
+      "label": "ocr_engine.py",
+      "file_type": "code",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L1",
+      "id": "ml_service_ocr_engine_py",
+      "community": 1,
+      "norm_label": "ocr_engine.py"
+    },
+    {
+      "label": "PhishLensOCR",
+      "file_type": "code",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L6",
+      "id": "ml_service_ocr_engine_phishlensocr",
+      "community": 1,
+      "norm_label": "phishlensocr"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L7",
+      "id": "ml_service_ocr_engine_phishlensocr_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".preprocess_image()",
+      "file_type": "code",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L11",
+      "id": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "community": 1,
+      "norm_label": ".preprocess_image()"
+    },
+    {
+      "label": ".extract_text()",
+      "file_type": "code",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L49",
+      "id": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "community": 1,
+      "norm_label": ".extract_text()"
+    },
+    {
+      "label": "Preprocess image to improve OCR accuracy and performance",
+      "file_type": "rationale",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L12",
+      "id": "ml_service_ocr_engine_rationale_12",
+      "community": 1,
+      "norm_label": "preprocess image to improve ocr accuracy and performance"
+    },
+    {
+      "label": "Extract text and bounding boxes from image",
+      "file_type": "rationale",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L50",
+      "id": "ml_service_ocr_engine_rationale_50",
+      "community": 1,
+      "norm_label": "extract text and bounding boxes from image"
+    },
+    {
+      "label": "test_service.py",
+      "file_type": "code",
+      "source_file": "ml-service\\test_service.py",
+      "source_location": "L1",
+      "id": "ml_service_test_service_py",
+      "community": 3,
+      "norm_label": "test_service.py"
+    },
+    {
+      "label": "test_analyze()",
+      "file_type": "code",
+      "source_file": "ml-service\\test_service.py",
+      "source_location": "L7",
+      "id": "ml_service_test_service_test_analyze",
+      "community": 3,
+      "norm_label": "test_analyze()"
+    },
+    {
+      "label": "train_model.py",
+      "file_type": "code",
+      "source_file": "ml-service\\train_model.py",
+      "source_location": "L1",
+      "id": "ml_service_train_model_py",
+      "community": 4,
+      "norm_label": "train_model.py"
+    },
+    {
+      "label": "train_baseline_model()",
+      "file_type": "code",
+      "source_file": "ml-service\\train_model.py",
+      "source_location": "L8",
+      "id": "ml_service_train_model_train_baseline_model",
+      "community": 4,
+      "norm_label": "train_baseline_model()"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "web-frontend\\eslint.config.js",
+      "source_location": "L1",
+      "id": "web_frontend_eslint_config_js",
+      "community": 8,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "web-frontend\\postcss.config.js",
+      "source_location": "L1",
+      "id": "web_frontend_postcss_config_js",
+      "community": 9,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "web-frontend\\tailwind.config.js",
+      "source_location": "L1",
+      "id": "web_frontend_tailwind_config_js",
+      "community": 10,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "web-frontend\\vite.config.js",
+      "source_location": "L1",
+      "id": "web_frontend_vite_config_js",
+      "community": 11,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "web-frontend\\src\\App.jsx",
+      "source_location": "L1",
+      "id": "web_frontend_src_app_jsx",
+      "community": 5,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "web-frontend\\src\\App.jsx",
+      "source_location": "L8",
+      "id": "src_app_app",
+      "community": 5,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "web-frontend\\src\\main.jsx",
+      "source_location": "L1",
+      "id": "web_frontend_src_main_jsx",
+      "community": 12,
+      "norm_label": "main.jsx"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_py",
+      "_tgt": "ml_service_classifier_phishlensclassifier",
+      "source": "ml_service_classifier_py",
+      "target": "ml_service_classifier_phishlensclassifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_phishlensclassifier",
+      "_tgt": "ml_service_classifier_phishlensclassifier_init",
+      "source": "ml_service_classifier_phishlensclassifier",
+      "target": "ml_service_classifier_phishlensclassifier_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_phishlensclassifier",
+      "_tgt": "ml_service_classifier_phishlensclassifier_load_model",
+      "source": "ml_service_classifier_phishlensclassifier",
+      "target": "ml_service_classifier_phishlensclassifier_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_phishlensclassifier",
+      "_tgt": "ml_service_classifier_phishlensclassifier_predict",
+      "source": "ml_service_classifier_phishlensclassifier",
+      "target": "ml_service_classifier_phishlensclassifier_predict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_phishlensclassifier",
+      "_tgt": "ml_service_classifier_phishlensclassifier_is_ready",
+      "source": "ml_service_classifier_phishlensclassifier",
+      "target": "ml_service_classifier_phishlensclassifier_is_ready",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_src": "ml_service_main_detectionresult",
+      "_tgt": "ml_service_classifier_phishlensclassifier",
+      "source": "ml_service_classifier_phishlensclassifier",
+      "target": "ml_service_main_detectionresult",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_phishlensclassifier_init",
+      "_tgt": "ml_service_classifier_phishlensclassifier_load_model",
+      "source": "ml_service_classifier_phishlensclassifier_init",
+      "target": "ml_service_classifier_phishlensclassifier_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_rationale_14",
+      "_tgt": "ml_service_classifier_phishlensclassifier_load_model",
+      "source": "ml_service_classifier_phishlensclassifier_load_model",
+      "target": "ml_service_classifier_rationale_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\classifier.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "ml_service_classifier_rationale_26",
+      "_tgt": "ml_service_classifier_phishlensclassifier_predict",
+      "source": "ml_service_classifier_phishlensclassifier_predict",
+      "target": "ml_service_classifier_rationale_26",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "ml_service_main_py",
+      "_tgt": "ml_service_main_detectionresult",
+      "source": "ml_service_main_py",
+      "target": "ml_service_main_detectionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "ml_service_main_py",
+      "_tgt": "ml_service_main_read_root",
+      "source": "ml_service_main_py",
+      "target": "ml_service_main_read_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_src": "ml_service_main_py",
+      "_tgt": "ml_service_main_analyze_image",
+      "source": "ml_service_main_py",
+      "target": "ml_service_main_analyze_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "ml_service_main_detectionresult",
+      "_tgt": "basemodel",
+      "source": "ml_service_main_detectionresult",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "ml-service\\main.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "ml_service_main_detectionresult",
+      "_tgt": "ml_service_ocr_engine_phishlensocr",
+      "source": "ml_service_main_detectionresult",
+      "target": "ml_service_ocr_engine_phishlensocr",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_py",
+      "_tgt": "ml_service_ocr_engine_phishlensocr",
+      "source": "ml_service_ocr_engine_py",
+      "target": "ml_service_ocr_engine_phishlensocr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_phishlensocr",
+      "_tgt": "ml_service_ocr_engine_phishlensocr_init",
+      "source": "ml_service_ocr_engine_phishlensocr",
+      "target": "ml_service_ocr_engine_phishlensocr_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_phishlensocr",
+      "_tgt": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "source": "ml_service_ocr_engine_phishlensocr",
+      "target": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_phishlensocr",
+      "_tgt": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "source": "ml_service_ocr_engine_phishlensocr",
+      "target": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "_tgt": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "source": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "target": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_rationale_12",
+      "_tgt": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "source": "ml_service_ocr_engine_phishlensocr_preprocess_image",
+      "target": "ml_service_ocr_engine_rationale_12",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\ocr_engine.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "ml_service_ocr_engine_rationale_50",
+      "_tgt": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "source": "ml_service_ocr_engine_phishlensocr_extract_text",
+      "target": "ml_service_ocr_engine_rationale_50",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\test_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "ml_service_test_service_py",
+      "_tgt": "ml_service_test_service_test_analyze",
+      "source": "ml_service_test_service_py",
+      "target": "ml_service_test_service_test_analyze",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ml-service\\train_model.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "ml_service_train_model_py",
+      "_tgt": "ml_service_train_model_train_baseline_model",
+      "source": "ml_service_train_model_py",
+      "target": "ml_service_train_model_train_baseline_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web-frontend\\src\\App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "web_frontend_src_app_jsx",
+      "_tgt": "src_app_app",
+      "source": "web_frontend_src_app_jsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
